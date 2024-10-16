@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+}
+
+.container {
+    margin: 0px 24px;
+    width: 600px;
+}
+
+.header_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    height: 80px;
+}
+
+.header_section__image {
+    width: 50px;
+    height: 42px;
+}
+
+.header_section__divider {
+    position: absolute;
+    top: 79px;
+    height: 1px;
+    width: 552px;
+    background-color:#F3F3F3;
+}
+
+.main_section {
+    padding: 0 24px 24px 24px;
+    height: max-content;
+    background-color: #FFFFFF;
+}
+
+.main_section__title {
+    margin: 24px 12px 12px 0px;
+}
+
+.main_section .cards {
+    display: grid;
+    grid-template-columns: 276px 276px;
+}
+
+.cards .card {
+    padding: 32px 8px 0px 8px;
+    margin-bottom: 24px;
+}
+
+.card .plugin_image {
+    border-radius: 7px;
+    width: 260px;
+    height: 260px;
+}
+
+.card .plugin_name {
+    margin: 0px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+}
+
+.card .plugin_price {
+    color: #489DFF;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.card .plugin_buy_button {
+    width: 131px;
+    height: 48px;
+    margin: 16px 0px;
+    padding: 16px 50px;
+    border-radius: 7px;
+    border: none;
+    background: #489DFF;
+    color: #FFFFFF;
+
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+}
+
+.main_section__divider {
+
+    height: 1px;
+    width: auto;
+    background-color: #E7E7F0;
+}
+
+.footer_section {
+    padding: 24px;
+}
+
+.footer_section__copyright {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.footer_section__write_back {
+    margin: 15px 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.footer_section__write_back a {
+    text-decoration: none;
+    color: #489DFF;
+}
+
+.footer_section__social_icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
